@@ -10,7 +10,7 @@ void puts2(char *str)
 	int longi = 0;
 	int t = 0;
 	char *y = str;
-	int a;
+	int o;
 
 	while (*y != '\0')
 	{
@@ -18,9 +18,9 @@ void puts2(char *str)
 		longi++;
 	}
 	t = longi - 1;
-	for (a = 0; a <= t; a++)
+	for (o = 0; o <= t; o++)
 	{
-		if (a % 2 == 0)
+		if (o % 2 == 0)
 		{
 			_putchar(str[0]);
 		}
