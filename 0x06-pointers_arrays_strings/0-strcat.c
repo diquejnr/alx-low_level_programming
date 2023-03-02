@@ -1,4 +1,4 @@
-#include "main.h"
+i#include "main.h"
 /**
  * *_strcat - function that concatenate two strings
  * @dest: input value
@@ -8,20 +8,21 @@
 
 char *_strcat(char *dest, char *src);
 {
-	char *dest_ptr = dest;
-	const char *src_ptr = src;
+	int i;
+	int j;
 
-	while (*dest_ptr)
+	i = 0;
+	while (dest[i] != '\0')
 	{
-		dest_ptr++;
+		i++;
 	}
-	while (*src_ptr)
+	j = 0;
+	while (src[j] != '\0')
 	{
-		*dest_ptr = *src_ptr;
-		dest_ptr++;
-		src_ptr++;
+		dest[i] = src[j];
+		i++;
+		j++;
 	}
-	*dest_ptr = '\0';
-
+	dest[i] = '\0';
 	return (dest);
 }
