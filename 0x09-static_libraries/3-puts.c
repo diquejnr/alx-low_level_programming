@@ -10,7 +10,7 @@ void _puts(char *str);
  */
 int main(void)
 {
-	_puts("\"Programming is like building a multilingual puzzle");
+	_puts("At the end of the day, my goal was to be the best programmer");
 	return (0);
 }
 
