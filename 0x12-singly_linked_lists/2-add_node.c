@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <string.h>
-#include <lists.h>
+#include "lists.h"
 /**
  * add_node - add new node to linked list
  * @head: pointer double

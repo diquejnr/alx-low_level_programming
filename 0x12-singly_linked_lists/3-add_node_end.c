@@ -1,6 +1,6 @@
-#include <stdlib>
+#include <stdlib.h>
 #include <string.h>
-#include <lists.h>
+#include "lists.h"
 /**
  * add_node_end - a node to linked list
  * @head: double pointer to list

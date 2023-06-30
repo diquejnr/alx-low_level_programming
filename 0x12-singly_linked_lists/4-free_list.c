@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include <lists.h>
+#include "lists.h"
 /**
  * free_list - free link list
  * @head: list_t to free
